@@ -4,7 +4,7 @@ const https = require('https')
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.send('Hello World! Test Test')
+  res.send('Hello, welcome to my Swapi.dev API')
 });
 
 var favorites = [];
